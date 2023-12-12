@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="website.css">
+    <title>Nası Ya</title>
+</head>
+<body>
+    <div id="quiz-container">
+        <div id="intro-screen">
+            <h1>Hayatının En Önemli Testine Hoşgeldin</h1>
+            <p>Merhaba Nası Ya Krallığı!!!.Evet bugün çok sıkılmıştım ve hayır aslında yapacak 
+            çok fazla işim vardı ama ona rağmen bununla uğraşmayı tercih ettim.
+            Testin sonunda kaç soruyu doğru cevapladığınızı görebileceksiniz.Her yanlış 
+            cevabınızda Buse evinize gelip çok sevdiğiniz ama kaybedene kadar farketmeyeceğiniz
+            küçük bir eşyanızı çalacaktır.En kötü sonucu alan oyuncu yine Buse'nin seçeceği 
+            2013 teen distopian evrenlerinden birinin içine hapsedilecektir.İyi Şanslar...</p>
+            <button onclick="startQuiz()">Hazırımmmm</button>
+        </div>
+
+        <div id="question-container" style="display: none;" >
+            <p id="question-text"></p>
+            <div id="options-container"></div>
+            <button onclick="nextQuestion()">Next Question</button>
+        </div>
+
+        <p id="result"></p>
+    </div>
+
+    <script src="website.js"></script>
+</body>
+</html>
+
